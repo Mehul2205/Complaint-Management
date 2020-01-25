@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(179.57622241465367deg, rgba(246, 245, 245,1) 46.88829075439782%,rgba(220, 220, 220,1) 65.08479307028358%);
+}
+.padded{
+    padding-bottom: 2em;
+}
+.alignment{
+    text-align: center;
+    padding-bottom: .5em;
+    font-size: 50px;
+    font-weight:900;
+}
+.aa{
+    text-align-last: center;
+    padding-bottom: 2em;
+    font-size: 40px;
+
+}
+.btnwrap:hover {
+    background:-webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background:linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+}
+
+.btnwrap{
+    width:150%;
+    height:100%;
+    background:linear-gradient(-45deg,#ff8a00,#da1b60);
+    background-color:#da1b60;
+    border-radius:50px 50px 50px 50px;
+    color: white;
+    text-decoration: none;
+}
+table{
+    width: 100%;
+}
+table tr th{
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #191919;
+    padding: 5px 0px;
+}
+.footer a{
+    color: gold;
+    text-decoration: none;
+}
+.footer-admin {
+    background:-webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background:linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+    font-size: 28px;
+    display: inline;
+    text-align: right;
+    position:fixed;
+   right:10px;
+   top:5px;
+}
+
+.footer-copyright {
+    color: #fff;
+    line-height: 32px;
+    text-align: left;
+}
+
+.footer-social {
+    float: right;
+}
+
+.footer-social a {
+    font-size: 18px;
+    color: #666;
+}
+.footer-copyright {
+    text-align: center;
+}
+
+.gg{
+    text-align: right;
+}
